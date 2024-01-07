@@ -1,9 +1,13 @@
-BOOKS TO SCRAPE
+					BOOKS TO SCRAPE
  
 
 Description:
 This project uses Python to extract information from http://books.toscrape.com into CSV files.
-STAGES: Phase 1: Pull all information on a single book: Information:product_page_url ● universal_ product_code (upc) ● book_title ● price_including_tax ● price_excluding_tax ● quantity_available ● product_description ● category ● review_rating ● image_url Phase 2: pulls all books in a single category Phase 3: pulls all book categories available Phase 4: Extracts each books information on to csv files by category, and extracts all images associated with the books.
+
+STAGES:
+Phase 1: Pull all information on a single book: Information:product_page_url ● universal_ product_code (upc) ● book_title ● price_including_tax ● price_excluding_tax ● quantity_available ● product_description ● category ● review_rating ● image_url Phase 2: pulls all books in a single category 
+Phase 3: pulls all book categories available 
+Phase 4: Extracts each books information on to csv files by category, and extracts all images associated with the books.
 Functions:
 •	Category Selection - Pulls all categories
 •	Extract Book Links - Extracts all book links within category, ensuring to capture every page in each category
